@@ -8,7 +8,7 @@
 
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
 }
 /******************************* NAVBAR ********************************/
 .logo {
@@ -112,7 +112,7 @@ border: 1px solid var(--primary-red);
 text-transform: uppercase;
 border-radius: 0;
 padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-color: var(--primary-white);
+color: var(--primary-red);
 margin: 2rem;
 font-size: 1rem;
 
@@ -123,7 +123,7 @@ font-size: 1rem;
   background-color: var(--primary-dark);
   color:var(--primary-white);
   transition: .2s ease-in-out;
-  color: var(--primary-red);
+  color: var(--primary-white);
 }
 
 /******************************* PARTICLES JS ********************************/
@@ -140,3 +140,49 @@ font-size: 1rem;
     display: none;
   }
 }
+
+
+
+
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+/******************************* ABOUTUS KNOW MORE BUTTON ********************************/
+
+.btn-know-more {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: #000000;
+  margin: 0rem;
+  font-size: 1rem;
+ 
+  
+  }
+  
+  .btn-know-more:hover {
+    text-decoration: none;
+    background-color: var(--primary-dark);
+    color:var(--primary-red);
+    transition: .2s ease-in-out;
+    
+  }
+
+
+  .about-heading {
+    color: var(--primary-red);
+    text-transform: uppercase;
+  }
+
+
+  @media (max-width: 468px) {
+        
+  }
+
+  
