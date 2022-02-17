@@ -3,7 +3,8 @@
 :root {
   --primary-white:#fff;
   --primary-red: #931F06;
-  --primary-dark: rgba(255,255,255, 0);
+  --primary-dark: #ffffff00;
+  --primary-black: #000000;
 }
 
 
@@ -185,4 +186,54 @@ a:active { text-decoration: none; }
         
   }
 
+/******************************* ABOUTUS KNOW MORE BUTTON ********************************/
+ .services {
+   text-align: center;
+   padding-bottom: 2rem;
+
+ } 
+
+ 
+
+
+ .services .icon {
+   font-size: 2rem;
+   color: var(--primary-white);
+   position: absolute;
+   margin-top: 5%;
+   align-items: center;
+   
+
+ }
+
+
+.servicestexts {
+    font-size: 1rem;
+    color: var(--primary-white);
+    
+  }
+
+  .services .box:hover {
+    background: var(--primary-red);
+    border-bottom: 0.3125rem solid var(--primary-black);
+  }
+
+
+
+  .services .box {
+    height: 16rem;
+    border-bottom: 0.3125rem solid var(--primary-red);
+    padding: 0.625rem;
+    margin-bottom: 1.875rem;
+    background: var(--primary-black);
+    transition: 0.3s ease-in-out;
+  }
   
+
+  .services .box:hover .icon {
+    color: var(--primary-black);
+  }
+
+  .services .box:hover .servicestexts {
+    color: var(--primary-black);
+  }
