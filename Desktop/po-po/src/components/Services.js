@@ -11,6 +11,8 @@ const Services = () => {
      <div className="py-5">
          <div className="container">
              <div className="row">
+             <h1 className="text-uppercase text-center py-5">Services</h1>
+            <div className="image-box-wrapper row justify-content-center">
                  <div className="col-md-2 col-sm-6">
                      <div className="box">
                      
@@ -44,7 +46,7 @@ const Services = () => {
                  <div className="col-md-2 col-sm-6">
                   
                   <div className="box">
-                      <h3 className="servicestexts">Marketing Comm.</h3>
+                      <h3 className="servicestexts">Marketing Communication</h3>
                       <div className="circle"><FontAwesomeIcon className="icon" icon={faLanguage} size="2x"></FontAwesomeIcon>
                   </div></div>
               </div>
@@ -67,7 +69,7 @@ const Services = () => {
              </div>
          </div>
      </div>
-   </div>
+   </div></div>
   );
 }
 

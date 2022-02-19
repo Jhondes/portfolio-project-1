@@ -3,8 +3,11 @@ import React from "react";
 
 const AboutUs = () => {
   return (
+    <div className="about-us">
     <div className="container py-5">
       <div className="row">
+      <h1 className="text-uppercase text-center py-5">About Us</h1>
+            <div className="image-box-wrapper row justify-content-center">
           <div className="col-lg-6 col-xm-12">
               <h1 className="about-heading">KNOW US BETTER.</h1>
               <p>Exquisite Precision is A One-stop Multimedia Studio
@@ -37,7 +40,7 @@ and create compelling media visuals.</p>
           
       </div>
       
-    </div>
+    </div></div></div>
 
 
 

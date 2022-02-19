@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
-import React, { Component } from "react";
+import Portfolio from "./components/Portfolio"; 
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
      <Header />
      <AboutUs />
      <Services />
+     <Portfolio />
      
     </>
   );
