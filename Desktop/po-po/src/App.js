@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio"; 
+import Testimonials from "./components/Testimonials"; 
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
      <AboutUs />
      <Services />
      <Portfolio />
+     <Testimonials />
      
     </>
   );

@@ -52,7 +52,11 @@ const Portfolio = () => {
                 <img className="portfolio-image" src={nice} alt="nice-image"/>
                 <div className="overflow"></div>
                 <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            
             </div></div>
+
+            
+            
            
             </div>                  
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faVideo, faMicrophone, faLanguage, faMagic, faAd, faCamera } from "@fortawesome/free-solid-svg-icons";
+import { faVideo, faMicrophone, faAd, faCamera, faDiamond, faFloppyDisk } from "@fortawesome/free-solid-svg-icons";
 
 
 
@@ -47,7 +47,7 @@ const Services = () => {
                   
                   <div className="box">
                       <h3 className="servicestexts">Marketing Communication</h3>
-                      <div className="circle"><FontAwesomeIcon className="icon" icon={faLanguage} size="2x"></FontAwesomeIcon>
+                      <div className="circle"><FontAwesomeIcon className="icon" icon={faFloppyDisk} size="2x"></FontAwesomeIcon>
                   </div></div>
               </div>
               {/* - */}
@@ -55,7 +55,7 @@ const Services = () => {
                   
                   <div className="box">
                       <h3 className="servicestexts">Creative Design</h3>
-                      <div className="circle"><FontAwesomeIcon className="icon" icon={faMagic} size="2x"></FontAwesomeIcon>
+                      <div className="circle"><FontAwesomeIcon className="icon" icon={faDiamond} size="2x"></FontAwesomeIcon>
                   </div>
               </div></div>
               {/* - */}
