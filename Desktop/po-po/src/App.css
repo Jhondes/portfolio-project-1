@@ -7,6 +7,7 @@
   --primary-black: #000000;
   --primary-grey: #6c757d;
   --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-teal-green: #006d5b;
 }
 
 
@@ -53,11 +54,11 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-border-top: 0.1875rem solid var(--primary-red);
+border-top: 0.1875rem solid var(--primary-teal-green);
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-red);
+  border-top: 0.1875rem solid var(--primary-teal-green);
 }
 
 /******************************* HEADER ********************************/
@@ -86,7 +87,7 @@ border-top: 0.1875rem solid var(--primary-red);
 }
 
 .main-info h1 {
-  color: var(--primary-red);
+  color: var(--primary-teal-green);
   text-transform: uppercase;
 }
 
@@ -112,11 +113,11 @@ border-top: 0.1875rem solid var(--primary-red);
 /******************************* HEADER MAIN OFFER BUTTON ********************************/
 
 .btn-main-offer {
-border: 1px solid var(--primary-red);
+border: 1px solid var(--primary-teal-green);
 text-transform: uppercase;
 border-radius: 0;
 padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-color: var(--primary-red);
+color: var(--primary-teal-green);
 margin: 2rem;
 font-size: 1rem;
 
@@ -159,7 +160,7 @@ a:active { text-decoration: none; }
 /******************************* ABOUTUS KNOW MORE BUTTON ********************************/
 
 .btn-know-more {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-teal-green);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -173,14 +174,14 @@ a:active { text-decoration: none; }
   .btn-know-more:hover {
     text-decoration: none;
     background-color: var(--primary-dark);
-    color:var(--primary-red);
+    color:var(--primary-teal-green);
     transition: .2s ease-in-out;
     
   }
 
 
   .about-heading {
-    color: var(--primary-red);
+    color: var(--primary-teal-green);
     text-transform: uppercase;
   }
 
@@ -244,7 +245,7 @@ a:active { text-decoration: none; }
   }
 
   .services .box:hover {
-    background: var(--primary-red);
+    background: var(--primary-teal-green);
     border-bottom: 0.3125rem solid var(--primary-black);
   }
 
@@ -252,7 +253,7 @@ a:active { text-decoration: none; }
 
   .services .box {
     height: 13rem;
-    border-bottom: 0.3125rem solid var(--primary-red);
+    border-bottom: 0.3125rem solid var(--primary-teal-green);
     padding: 0.625rem;
     margin-bottom: 1.875rem;
     background: var(--primary-black);
@@ -285,7 +286,7 @@ a:active { text-decoration: none; }
     background: var(--primary-dark);
     padding: 3rem 0;
     position: relative;
-    background: url(rb.png) no-repeat;
+    background: url(rb2.jpg) no-repeat;
     
     background-size: cover;
     background-position: center;
@@ -305,7 +306,7 @@ a:active { text-decoration: none; }
   .portfolio-image {
     width: 15rem;
     height: 15rem;
-    border: 1px solid var(--primary-red);
+    border: 1px solid var(--primary-teal-green);
     
     
   }
@@ -334,7 +335,7 @@ a:active { text-decoration: none; }
     width: 15rem;
     height: 15rem;
     top: 0;
-    border: 1px solid var(--primary-red);
+    border: 1px solid var(--primary-teal-green);
     cursor: pointer;
   }
 
@@ -359,7 +360,7 @@ a:active { text-decoration: none; }
     opacity: 0;
     margin-left: -8rem;
     margin-top: 7rem;
-    color: var(--primary-red);
+    color: var(--primary-teal-green);
     font-size: 1.5rem;
   }
 
@@ -381,7 +382,7 @@ a:active { text-decoration: none; }
   }
 
   .testimonials h1 {
-    color: var(--primary-red);
+    color: var(--primary-white);
     padding: 3rem 0;
     text-transform: uppercase;
   }
@@ -409,7 +410,7 @@ a:active { text-decoration: none; }
   }
 
   .myCarousel h3 {
-    color: var(--primary-red);
+    color: var(--primary-teal-green);
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -442,3 +443,135 @@ a:active { text-decoration: none; }
   }
 
   
+  /****************** CONTACTS *******************/
+
+  
+
+  .contacts {
+    background: var(--primary-black);
+    padding: 3rem 0;
+
+  }
+
+  .contacts h1 {
+    color: var(--primary-white);
+    padding: 1.3rem 0;
+    text-transform: uppercase;
+  }
+
+  .contacts p {
+    color: var(--primary-grey);
+    font-size: 1.2rem;
+  }
+
+  .ci {
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 1.0975rem;
+    color: var(--primary-teal-green) !important;
+    
+  }
+
+  .ci2 {
+    text-align: justify;
+  }
+
+  .vu {
+    text-transform: uppercase;
+    text-align: justify;
+    letter-spacing: 1.0975rem;
+    color: var(--primary-teal-green) !important;
+    
+  }
+
+  .vu2 {
+    text-align: justify;
+  }
+
+  .fill {
+    text-transform: uppercase;
+    color: var(--primary-teal-green) !important;
+  }
+
+  /****************** INPUTS *******************/
+
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .line {
+    position: relative;
+    top: -0.8rem;
+    width: 0;
+    height: 0.125rem;
+    background: var(--primary-teal-green);
+    display: inline-block;
+  }
+
+  input:focus+.line, textarea:focus+.line {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+
+  .contacts input, .contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-bottom: 0.125rem solid var(--primary-grey);
+    border-radius: 0;
+    color: var(--primary-grey);
+    outline: 0 !important;
+    box-shadow: none !important;
+    top: 0;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+  }
+
+
+  .contacts .container {
+    padding: 4rem 0;
+
+  }
+
+  .contacts input:focus, .contacts textarea:focus {
+    background: transparent;
+    color: var(--primary-white);
+    border-bottom: 0.125rem solid var(--primary-grey);
+  }
+
+
+  .contacts textarea {
+    height: 12.8rem !important;
+    
+  }
+
+  .contact-btn {
+    margin: 1rem 0 0 0;
+    width: 100%;
+    background: none;
+  }
+
+  input.form-control {
+    margin: -0.2rem 0;
+  }
+
+ textarea.form-control {
+    margin: -0.2rem 0;
+  }
+
+  
+  /****************** MEDIA *******************/
+  
+  
+  @media(max-width: 768px) {
+    .contacts .container {
+      padding: 0 1rem;
+    }
+
+    .contacts p {
+      padding: 0 0.4rem;
+    }
+  }
